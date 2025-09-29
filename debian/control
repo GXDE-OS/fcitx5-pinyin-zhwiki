@@ -1,0 +1,19 @@
+Source: fcitx5-pinyin-zhwiki
+Section: utils
+Priority: optional
+Maintainer: shenmo <shenmo@spark-app.store>
+Rules-Requires-Root: no
+Build-Depends:
+ debhelper-compat (= 13),
+Standards-Version: 4.7.2
+Homepage: https://gitee.com/GXDE-OS/fcitx5-pinyin-zhwiki
+
+
+Package: fcitx5-pinyin-zhwiki
+Architecture: any
+Depends:
+ ${shlibs:Depends},
+ ${misc:Depends},
+ fcitx5-pinyin,
+Description: fcitx5-pinyin-zhwiki
+ fcitx5-pinyin-zhwiki
