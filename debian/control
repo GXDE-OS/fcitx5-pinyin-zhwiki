@@ -10,7 +10,7 @@ Homepage: https://gitee.com/GXDE-OS/fcitx5-pinyin-zhwiki
 
 
 Package: fcitx5-pinyin-zhwiki
-Architecture: any
+Architecture: all
 Depends:
  ${shlibs:Depends},
  ${misc:Depends},
